@@ -40,10 +40,10 @@ class addImportContent
 function create_term($item)
 {
     $term = Term::create(array(
-        'vid' => 'lieux',
-        //'parent' => $item['parent'],
+        'vid' => 'term_name',
+        //'parent' => $item['parent'], // if exist parent
         'name' => $item['name'],
-        'langcode' => 'fr',
+        'langcode' => 'en',
         'status' => 1
     ));
     $term->save();
