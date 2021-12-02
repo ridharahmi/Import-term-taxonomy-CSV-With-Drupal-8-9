@@ -1,0 +1,7 @@
+import_taxonomy.content:
+  path: '/admin/import-taxonomy'
+  defaults:
+    _form: '\Drupal\import_taxonomy\Form\ImportForm'
+    _title: 'Import Taxonomy'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,5 @@
+importTerm.config:
+  title: 'Import Taxonomy'
+  description: 'Import Taxonomy.'
+  parent: system.admin_config_system
+  route_name: import_taxonomy.content

@@ -1,0 +1,7 @@
+name: 'Import Term Taxonomy'
+description: 'Import Term Taxonomy  From A File CSV With Drupal 8 & 9.'
+package: custom
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
+
